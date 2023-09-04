@@ -1,0 +1,54 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dict_QueueInput&Sequence_2",
+        "dict_Analytics&Sequence_2",
+        "ie_QueueItems&Sequence_2",
+        "transactionItem&Sequence_2",
+        "strJSONOutput&Sequence_2",
+        "joAnalytics&Sequence_2",
+        "strJsonAnalytics&Sequence_2",
+        "dtOutput&Sequence_2",
+        "dataSet&Sequence_2",
+        "dataSetDeserialize&Sequence_2",
+        "dtDeserialize&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strQueueName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtDataSerialize&Sequence_2",
+        "strRetrievedOutput&Sequence_2",
+        "queueItem&Sequence_2",
+        "ie_QueueItems&Sequence_2",
+        "dtDeserialize&Sequence_2",
+        "strJSONOutput&Sequence_2",
+        "transactionItem&Sequence_2",
+        "dtOutput&Sequence_2",
+        "dict_QueueInput&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strQueueName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
